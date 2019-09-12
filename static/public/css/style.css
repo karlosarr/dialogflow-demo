@@ -1,0 +1,132 @@
+.dialogflow-main-section {
+  width: 300px;
+  position: fixed;
+  right: 50px;
+  bottom: -350px;
+}
+.dialogflow-first-section:hover {
+  cursor: pointer;
+}
+.open-more {
+  bottom: 0px;
+  transition: 2s;
+}
+.border-chat {
+
+  margin: 0px;
+}
+.dialogflow-first-section {
+
+}
+.dialogflow-first-section p {
+  color: #fff;
+  margin: 0px;
+  padding: 10px 0px;
+}
+.dialogflow-first-section p:hover {
+  color: #fff;
+  cursor: pointer;
+}
+.dialogflow-right-first-section {
+  text-align: right;
+}
+.dialogflow-right-first-section i {
+  color: #fff;
+  font-size: 15px;
+  padding: 12px 3px;
+}
+.dialogflow-right-first-section i:hover {
+  color: #fff;
+}
+.chat-section ul li {
+  list-style: none;
+  margin-top: 10px;
+  position: relative;
+}
+.chat-section {
+  overflow-y: auto;
+  height: 300px;
+}
+.chat-section ul {
+  padding: 0px;
+}
+.left-chat img,
+.right-chat img {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 0px 10px;
+}
+.right-chat img {
+  float: right;
+}
+.dialogflow-second-section {
+  padding: 0px;
+  margin: 0px;
+  background-color: #f3f3f3;
+  height: 300px;
+}
+.left-chat,
+.right-chat {
+  overflow: hidden;
+}
+.left-chat p,
+.right-chat p {
+
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+  float: left;
+  width: 60%;
+  margin-bottom: 20px;
+}
+.left-chat span,
+.right-chat span {
+  position: absolute;
+  left: 70px;
+  top: 60px;
+  color: #b7bcc5;
+}
+.right-chat span {
+  left: 45px;
+}
+.right-chat p {
+  float: right;
+  background-color: #ffffff;
+}
+.dialogflow-third-section {
+  border-top: 1px solid #eeeeee;
+}
+.dialogflow-text-bar input {
+  width: 90%;
+  margin-left: -15px;
+  padding: 10px 10px;
+  border: 1px solid #fff;
+}
+.dialogflow-text-bar a i {
+
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  padding: 7px 0px;
+  border-radius: 50%;
+  text-align: center;
+}
+.left-chat:before {
+  content: " ";
+  position: absolute;
+  top: 0px;
+  left: 55px;
+  bottom: 150px;
+  border: 15px solid transparent;
+
+}
+.right-chat:before {
+  content: " ";
+  position: absolute;
+  top: 0px;
+  right: 55px;
+  bottom: 150px;
+  border: 15px solid transparent;
+  border-top-color: #fff;
+}

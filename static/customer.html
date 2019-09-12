@@ -1,0 +1,64 @@
+<!doctype html>
+<!--
+Copyright 2017, Google, Inc.
+Licensed under the Apache License, Version 2.0 (the 'License');
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an 'AS IS' BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<html>
+
+<head>
+  <title>Customer Interface</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="/public/css/style.css">
+</head>
+
+<body>
+  <div class="dialogflow-main-section">
+    <div class="row border-chat">
+      <div class="col-md-12 col-sm-12 col-xs-12 dialogflow-first-section">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-6 dialogflow-left-first-section">
+            <p>Chat dialogflow</p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-6 dialogflow-right-first-section">
+            <a href="#"><i class="fa fa-minus" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-clone" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row border-chat">
+      <div class="col-md-12 col-sm-12 col-xs-12 dialogflow-second-section">
+        <div class="chat-section">
+          <ul id="messages">
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row border-chat">
+      <div class="col-md-12 col-sm-12 col-xs-12 dialogflow-third-section">
+        <div class="dialogflow-text-bar">
+            <form id="chat">
+                <input id="messege" autocomplete="off" type="text" placeholder="Escribe un mensaje"><a href="#" id="send"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/public/js/scripts.js"></script>
+</body>
+
+</html>
